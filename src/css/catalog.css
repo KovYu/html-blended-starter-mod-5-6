@@ -50,14 +50,14 @@
 
 .catalog-card-title {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.2;
   letter-spacing: -0.04em;
   text-transform: uppercase;
   color: #1b414b;
 }
 .catalog-card-type {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -138,6 +138,13 @@
 
   .catalog-card:last-child {
     display: none;
+  }
+
+  .catalog-card-title {
+    font-size: 16px;
+  }
+  .catalog-card-type {
+    font-size: 13px;
   }
 
   .catalog-btn {
